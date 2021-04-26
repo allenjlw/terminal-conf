@@ -23,7 +23,7 @@ local git_branch='$(git_prompt_info)%{$reset_color%}'
 local timestamp='%{$fg[red]%}[%{$reset_color%}%D{%k:%M:%S}%{$fg[red]%}]%{$reset_color%}'
 
 PROMPT="%{$fg[red]%}┌%{$reset_color%}${user_host}${current_dir}${rvm_ruby}${git_branch}
-%{$fg[red]%}└${timestamp}%{$reset_color%}${user_symbol}"
+%{$fg[red]%}└%{$reset_color%}${user_symbol}"
 RPS1="%B${return_code}%b"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}‹"
