@@ -21,7 +21,7 @@ fi
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 local timestamp='%{$FG[009]%}[%{$reset_color%}%D{%k:%M:%S}%{$FG[009]%}]%{$reset_color%}'
 
-PROMPT="$FG[009]┌%{$reset_color%}${user_host}${current_dir}${rvm_ruby}${git_branch}
+PROMPT="$FG[009]┌%{$reset_color%}${current_dir}${rvm_ruby}${git_branch}
 $FG[009]└%{$reset_color%}${user_symbol}"
 RPS1="%B${return_code}%b"
 
